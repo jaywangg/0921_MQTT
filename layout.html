@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MQTT App</title>
+</head>
+<body>
+    主題 : <input type="text" id="input_Subscribe">
+    <button onclick="set_Subscribe()">訂閱 </button>
+    <hr>
+    主題 : <input type="text" id="input_Publish">
+    <br>
+    訊息 : <input type="text" id="input_Message">
+    <button onclick="set_Pubscribe()">發送</button>
+    <hr>
+    訊息列 : <div id="messageText"></div>
+</body>
+</html>
